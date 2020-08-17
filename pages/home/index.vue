@@ -12,6 +12,7 @@
       <div class="row">
 
         <div class="col-md-9">
+          <!-- feed -->
           <div class="feed-toggle">
             <ul class="nav nav-pills outline-active">
               <li class="nav-item">
@@ -47,7 +48,8 @@
           <div v-for="article in articles" :key="article.slug" class="article-preview">
             <div class="article-meta">
               <nuxt-link :to="{ name: 'profile', params: { username: article.author.username}}">
-                <img :src="article.author.image" alt="avatar"/>
+                <!-- <img :src="article.author.image" alt="avatar"/>-->
+                <img src="" alt="">
               </nuxt-link>
               <div class="info">
                 <nuxt-link class="author" :to="{ name: 'profile', params: { username: article.author.username}}">
@@ -114,6 +116,7 @@ export default {
   async asyncData ({ query }) {
     const page = Number.parseInt(query.page || 1)
     const limit = 20
+    console.log('query =>', query)
     const tab = query.tab || 'global_feed'
     const tag = query.tag
     const loadArticles = tab === 'global_feed' ?
@@ -150,17 +153,18 @@ export default {
   methods: {
     async onFavorite (article) {
       article.favoriteDisabled = true
-      if (article.favorite) {
+      if (article.favorited) {
         // 取消点赞
         await deleteFavorite(article.slug)
-        article.favorite = false
-        article.favoriteCount -= 1
+        article.favorited = false
+        article.favoritesCount += -1
       } else {
         // 添加点赞
         await addFavorite(article.slug)
-        article.favorite = true
-        article.favoriteCount += 1
+        article.favorited = true
+        article.favoritesCount += 1
       }
+      console.log('article =>', article)
       article.favoriteDisabled = false
     },
   },

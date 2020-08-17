@@ -23,33 +23,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="605067d4-b1f0-4492-955f-e37e7dde247e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/tag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/authenticated.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/notAuthenticated.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/article/components/article-comment.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/article/components/article-meta.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/article/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/editor/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/home/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/layout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/profile/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/settings/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/dayjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ArticleList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/10.f6eface.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/3.0a07521.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/4.fb43d05.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/5.6f7d312.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/6.8a4a98f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/7.dccb5ae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/8.512f385.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/9.d6dd536.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/LICENSES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/app.0500603.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/node_modules/commons.f1a9910.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/runtime.532a747.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/index.spa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/index.ssr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/loading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/views/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/views/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/article/components/article-comment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/article/components/article-comment.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/editor/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/editor/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,7 +99,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -82,11 +119,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/pages/article" />
     </key>
   </component>
@@ -126,10 +164,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="JavaScript Debug.article-comment.vue" />
-        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +183,7 @@
       <workItem from="1597625543381" duration="1628000" />
       <workItem from="1597637870819" duration="6618000" />
       <workItem from="1597652747116" duration="617000" />
+      <workItem from="1597670786680" duration="4763000" />
     </task>
     <servers />
   </component>
@@ -168,35 +207,43 @@
       <screen x="0" y="25" width="1920" height="1098" />
     </state>
     <state x="841" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1098@0.25.1920.1098" timestamp="1597652831731" />
-    <state width="933" height="332" key="GridCell.Tab.0.bottom" timestamp="1597652854667">
-      <screen x="0" y="25" width="1920" height="1098" />
+    <state width="1893" height="379" key="GridCell.Tab.0.bottom" timestamp="1597672759653">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1597628512783" />
-    <state width="933" height="332" key="GridCell.Tab.0.bottom/0.25.1920.1098@0.25.1920.1098" timestamp="1597652854667" />
-    <state width="933" height="332" key="GridCell.Tab.0.center" timestamp="1597652854666">
-      <screen x="0" y="25" width="1920" height="1098" />
+    <state width="1893" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1597672759653" />
+    <state width="933" height="332" key="GridCell.Tab.0.bottom/0.25.1920.1098@0.25.1920.1098" timestamp="1597670939515" />
+    <state width="1893" height="379" key="GridCell.Tab.0.center" timestamp="1597672759652">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="331" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1597628512782" />
-    <state width="933" height="332" key="GridCell.Tab.0.center/0.25.1920.1098@0.25.1920.1098" timestamp="1597652854666" />
-    <state width="933" height="332" key="GridCell.Tab.0.left" timestamp="1597652854666">
-      <screen x="0" y="25" width="1920" height="1098" />
+    <state width="1893" height="379" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1597672759652" />
+    <state width="933" height="332" key="GridCell.Tab.0.center/0.25.1920.1098@0.25.1920.1098" timestamp="1597670939514" />
+    <state width="1893" height="379" key="GridCell.Tab.0.left" timestamp="1597672759652">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="331" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1597628512781" />
-    <state width="933" height="332" key="GridCell.Tab.0.left/0.25.1920.1098@0.25.1920.1098" timestamp="1597652854666" />
-    <state width="933" height="332" key="GridCell.Tab.0.right" timestamp="1597652854667">
-      <screen x="0" y="25" width="1920" height="1098" />
+    <state width="1893" height="379" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1597672759652" />
+    <state width="933" height="332" key="GridCell.Tab.0.left/0.25.1920.1098@0.25.1920.1098" timestamp="1597670939513" />
+    <state width="1893" height="379" key="GridCell.Tab.0.right" timestamp="1597672759652">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1893" height="331" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1597628512782" />
-    <state width="933" height="332" key="GridCell.Tab.0.right/0.25.1920.1098@0.25.1920.1098" timestamp="1597652854667" />
-    <state x="382" y="160" key="SettingsEditor" timestamp="1597652716601">
+    <state width="1893" height="379" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1597672759652" />
+    <state width="933" height="332" key="GridCell.Tab.0.right/0.25.1920.1098@0.25.1920.1098" timestamp="1597670939514" />
+    <state x="382" y="160" key="SettingsEditor" timestamp="1597670814627">
       <screen x="0" y="25" width="1920" height="1098" />
     </state>
     <state x="382" y="148" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1597537433368" />
-    <state x="382" y="160" key="SettingsEditor/0.25.1920.1098@0.25.1920.1098" timestamp="1597652716601" />
+    <state x="382" y="160" key="SettingsEditor/0.25.1920.1098@0.25.1920.1098" timestamp="1597670814627" />
     <state width="625" height="500" key="SwitcherDM" timestamp="1597574376080">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="625" height="500" key="SwitcherDM/0.0.1920.1200@0.0.1920.1200" timestamp="1597574376080" />
+    <state x="635" y="276" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1597677412921">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="635" y="276" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1597677412921" />
+    <state x="579" y="309" width="761" height="582" key="find.popup" timestamp="1597676571564">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="579" y="309" width="761" height="582" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1597676571564" />
     <state x="541" y="179" width="838" height="945" key="search.everywhere.popup" timestamp="1597652728628">
       <screen x="0" y="25" width="1920" height="1098" />
     </state>
