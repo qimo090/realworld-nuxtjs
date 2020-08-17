@@ -1,0 +1,43 @@
+[
+  {
+    "path": "/",
+    "component": "/Users/panjieming/Documents/lagou/github/fed-e-task-03-03/mycode/04-nuxtjs/realworld-nuxtjs/pages/layout",
+    "children": [
+      {
+        "path": "/",
+        "name": "home",
+        "component": "/Users/panjieming/Documents/lagou/github/fed-e-task-03-03/mycode/04-nuxtjs/realworld-nuxtjs/pages/home"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "/Users/panjieming/Documents/lagou/github/fed-e-task-03-03/mycode/04-nuxtjs/realworld-nuxtjs/pages/login"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "/Users/panjieming/Documents/lagou/github/fed-e-task-03-03/mycode/04-nuxtjs/realworld-nuxtjs/pages/login"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "/Users/panjieming/Documents/lagou/github/fed-e-task-03-03/mycode/04-nuxtjs/realworld-nuxtjs/pages/profile"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "/Users/panjieming/Documents/lagou/github/fed-e-task-03-03/mycode/04-nuxtjs/realworld-nuxtjs/pages/settings"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "/Users/panjieming/Documents/lagou/github/fed-e-task-03-03/mycode/04-nuxtjs/realworld-nuxtjs/pages/editor"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "/Users/panjieming/Documents/lagou/github/fed-e-task-03-03/mycode/04-nuxtjs/realworld-nuxtjs/pages/article"
+      }
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="605067d4-b1f0-4492-955f-e37e7dde247e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/authenticated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/notAuthenticated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/article/components/article-comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/article/components/article-meta.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/article/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/editor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/profile/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/settings/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/dayjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1g8jDFH44kdyxS3iDfpKYK05Vmf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/article" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="article-comment.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/realworld-nuxtjs/pages/article/components/article-comment.vue" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="JavaScript Debug.article-comment.vue" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="605067d4-b1f0-4492-955f-e37e7dde247e" name="Default Changelist" comment="" />
+      <created>1597502993005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597502993005</updated>
+      <workItem from="1597502995083" duration="19045000" />
+      <workItem from="1597625543381" duration="1628000" />
+      <workItem from="1597637870819" duration="6618000" />
+      <workItem from="1597652747116" duration="617000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="841" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597652831731">
+      <screen x="0" y="25" width="1920" height="1098" />
+    </state>
+    <state x="841" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1098@0.25.1920.1098" timestamp="1597652831731" />
+    <state width="933" height="332" key="GridCell.Tab.0.bottom" timestamp="1597652854667">
+      <screen x="0" y="25" width="1920" height="1098" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1597628512783" />
+    <state width="933" height="332" key="GridCell.Tab.0.bottom/0.25.1920.1098@0.25.1920.1098" timestamp="1597652854667" />
+    <state width="933" height="332" key="GridCell.Tab.0.center" timestamp="1597652854666">
+      <screen x="0" y="25" width="1920" height="1098" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1597628512782" />
+    <state width="933" height="332" key="GridCell.Tab.0.center/0.25.1920.1098@0.25.1920.1098" timestamp="1597652854666" />
+    <state width="933" height="332" key="GridCell.Tab.0.left" timestamp="1597652854666">
+      <screen x="0" y="25" width="1920" height="1098" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1597628512781" />
+    <state width="933" height="332" key="GridCell.Tab.0.left/0.25.1920.1098@0.25.1920.1098" timestamp="1597652854666" />
+    <state width="933" height="332" key="GridCell.Tab.0.right" timestamp="1597652854667">
+      <screen x="0" y="25" width="1920" height="1098" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1597628512782" />
+    <state width="933" height="332" key="GridCell.Tab.0.right/0.25.1920.1098@0.25.1920.1098" timestamp="1597652854667" />
+    <state x="382" y="160" key="SettingsEditor" timestamp="1597652716601">
+      <screen x="0" y="25" width="1920" height="1098" />
+    </state>
+    <state x="382" y="148" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1597537433368" />
+    <state x="382" y="160" key="SettingsEditor/0.25.1920.1098@0.25.1920.1098" timestamp="1597652716601" />
+    <state width="625" height="500" key="SwitcherDM" timestamp="1597574376080">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="625" height="500" key="SwitcherDM/0.0.1920.1200@0.0.1920.1200" timestamp="1597574376080" />
+    <state x="541" y="179" width="838" height="945" key="search.everywhere.popup" timestamp="1597652728628">
+      <screen x="0" y="25" width="1920" height="1098" />
+    </state>
+    <state x="541" y="168" width="838" height="1032" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1597628511087" />
+    <state x="541" y="179" width="838" height="945" key="search.everywhere.popup/0.25.1920.1098@0.25.1920.1098" timestamp="1597652728628" />
+  </component>
+</project>
