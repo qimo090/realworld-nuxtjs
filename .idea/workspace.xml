@@ -19,15 +19,17 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="605067d4-b1f0-4492-955f-e37e7dde247e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ArticleList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/client.js" afterDir="false" />
@@ -71,12 +73,6 @@
       <change beforePath="$PROJECT_DIR$/.nuxt/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/views/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/views/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/article/components/article-comment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/article/components/article-comment.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/editor/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/editor/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,8 +179,16 @@
       <workItem from="1597625543381" duration="1628000" />
       <workItem from="1597637870819" duration="6618000" />
       <workItem from="1597652747116" duration="617000" />
-      <workItem from="1597670786680" duration="4763000" />
+      <workItem from="1597670786680" duration="5161000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1597677510524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597677510524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +205,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="841" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597652831731">
@@ -227,6 +235,10 @@
     </state>
     <state width="1893" height="379" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1597672759652" />
     <state width="933" height="332" key="GridCell.Tab.0.right/0.25.1920.1098@0.25.1920.1098" timestamp="1597670939514" />
+    <state x="619" y="239" key="RollbackChangesDialog" timestamp="1597677489480">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="619" y="239" key="RollbackChangesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1597677489480" />
     <state x="382" y="160" key="SettingsEditor" timestamp="1597670814627">
       <screen x="0" y="25" width="1920" height="1098" />
     </state>
@@ -236,6 +248,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="625" height="500" key="SwitcherDM/0.0.1920.1200@0.0.1920.1200" timestamp="1597574376080" />
+    <state x="460" y="274" key="Vcs.Push.Dialog.v2" timestamp="1597677514482">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="460" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1597677514482" />
     <state x="635" y="276" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1597677412921">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
