@@ -29,50 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="605067d4-b1f0-4492-955f-e37e7dde247e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/nuxt-error.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/10.f6eface.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/3.0a07521.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/4.fb43d05.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/5.6f7d312.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/6.8a4a98f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/7.dccb5ae.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/8.512f385.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/9.d6dd536.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/LICENSES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/app.0500603.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/node_modules/commons.f1a9910.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/runtime.532a747.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/1.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/2.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/3.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/4.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/6.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/7.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/index.spa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/index.ssr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/server.manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/loading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/views/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/views/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realworld-nuxtjs.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +138,7 @@
       <workItem from="1597625543381" duration="1628000" />
       <workItem from="1597637870819" duration="6618000" />
       <workItem from="1597652747116" duration="617000" />
-      <workItem from="1597670786680" duration="5161000" />
+      <workItem from="1597670786680" duration="5621000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1597677510524</created>
