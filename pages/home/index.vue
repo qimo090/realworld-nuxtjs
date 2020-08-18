@@ -116,7 +116,6 @@ export default {
   async asyncData ({ query }) {
     const page = Number.parseInt(query.page || 1)
     const limit = 20
-    console.log('query =>', query)
     const tab = query.tab || 'global_feed'
     const tag = query.tag
     const loadArticles = tab === 'global_feed' ?
